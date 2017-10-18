@@ -1,11 +1,14 @@
 #include <stdio.h>
 int main(){
-	int a,b;
+	int a,b,t;
 	printf("请输入一个整数。\na=");
 	scanf("%d",&a);
 	printf("请输入一个整数。\nb=");
 	scanf("%d",&b);
-	printf("a,b互换后为a=%d,b=%d",b,a);
+	t=a;
+	a=b;
+	b=t;
+	printf("a,b互换后为a=%d,b=%d",a,b);
 	
 	
 }
