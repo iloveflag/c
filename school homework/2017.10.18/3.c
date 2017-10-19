@@ -46,7 +46,7 @@ if(a<b)
 int a,b,c,t;
 scanf("%d %d %d",&a,&b,&c);
 t=a;
-if(a<b)
+if(t<b)
 {
 	t=b;
 }
@@ -88,7 +88,7 @@ scanf("%d %d %d",&a,&b,&c);
 t1=a;
 t2=b;
 t3=c;
-if(a<b)
+if(t1<b)
 {
 	t1=b;
 	t2=a;
