@@ -18,4 +18,4 @@ int b=sanweishu-a*100-c;
 
 printf("%d",a+b+c*100);  
 
- }?
+ }
