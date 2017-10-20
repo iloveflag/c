@@ -7,8 +7,8 @@ main()
 {
 	float a,b,c,d，t;
 	scanf("%f %f %f %f",&a,&b,&c,&d);
-	
-	printf("%f %f",a-c,b-d) ;
+	t=sqr((c-a)^2+(d-b)^2);
+	printf("%f",t) ;
 	
 	
 	
