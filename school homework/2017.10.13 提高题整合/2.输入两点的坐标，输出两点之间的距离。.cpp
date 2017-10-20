@@ -5,9 +5,9 @@
 #include <math.h>
 main()
 {
-	float a,b,c,d，t;
+	float a,b,c,d,t;
 	scanf("%f %f %f %f",&a,&b,&c,&d);
-	t=sqr((c-a)^2+(d-b)^2);
+	t=sqrt(pow((c-a),2)+pow((d-b),2));
 	printf("%f",t) ;
 	
 	
