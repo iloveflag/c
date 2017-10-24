@@ -1,4 +1,4 @@
-//7¡¢ÊäÈëÈý¸öÊýa,b,c£¬ÅÐ¶Ï aÊÇ·ñÊÇb£¬cµÄ¹«Ô¼Êý¡£
+//7ã€è¾“å…¥ä¸‰ä¸ªæ•°a,b,cï¼Œåˆ¤æ–­ aæ˜¯å¦æ˜¯bï¼Œcçš„å…¬çº¦æ•°ã€‚
 #include <stdio.h>
 main()
 {
@@ -12,3 +12,4 @@ main()
 	{
 	printf("no");
 	}
+}

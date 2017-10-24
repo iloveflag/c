@@ -1,4 +1,4 @@
-//2¡¢ÊäÈëÈÎÒâÈý¸öÕûÊýa¡¢b¡¢c£¬°´´Ó´óµ½Ð¡µÄ´ÎÐòÊä³ö¡£
+//2ã€è¾“å…¥ä»»æ„ä¸‰ä¸ªæ•´æ•°aã€bã€cï¼ŒæŒ‰ä»Žå¤§åˆ°å°çš„æ¬¡åºè¾“å‡ºã€‚
 #include <stdio.h> 
 main()
 {
@@ -14,7 +14,7 @@ if(a<b)
 }
 if(a<c)
 {
-	t=c;
+	t=a;
 	a=c;
 	c=t;
 }

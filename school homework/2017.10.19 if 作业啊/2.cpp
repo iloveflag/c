@@ -12,7 +12,7 @@ if(a<b)
 }
 if(a<c)
 {
-	t=c;
+	t=a;
 	a=c;
 	c=t;
 
