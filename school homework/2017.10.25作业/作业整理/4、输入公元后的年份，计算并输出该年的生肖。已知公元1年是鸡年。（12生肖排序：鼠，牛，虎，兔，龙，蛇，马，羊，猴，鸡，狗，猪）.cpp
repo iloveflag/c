@@ -7,19 +7,17 @@ main()
 	t=a%12;
 	switch(t)
 	{
-	case 0:printf("Öí");break;
-	case 1:printf("Êó");break;
-	case 2:printf("Å£");break;
-	case 3:printf("»¢");break;
-	case 4:printf("ÍÃ");break;
-	case 5:printf("Áú");break;
-	case 6:printf("Éß");break;
-	case 7:printf("Âí");break;
-	case 8:printf("Ñò");break;
-	case 9:printf("ºï");break;
-	case 10:printf("¼¦");break;
-	case 11:printf("¹·");break;
-	
-
-	
+	case 0:printf("ºï");break;
+	case 1:printf("¼¦");break;
+	case 2:printf("¹·");break;
+	case 3:printf("Öí");break;
+	case 4:printf("Êó");break;
+	case 5:printf("Å£");break;
+	case 6:printf("»¢");break;
+	case 7:printf("ÍÃ");break;
+	case 8:printf("Áú");break;
+	case 9:printf("Éß");break;
+	case 10:printf("Âí");break;
+	case 11:printf("Ñò");break;
 	}
+}
