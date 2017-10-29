@@ -4,7 +4,7 @@ main()
 	float a;
 	scanf("%f",&a);
 	if(a>0 && a<1.3 )
-	printf("60");
+	printf("60\n");
 	else
-	printf("120");
+	printf("120\n");
 }
