@@ -1,6 +1,6 @@
 #include <stdio.h>
 main(){
-	int x,sum,i;
+	int x,sum=0,i;
 	scanf("%d",&x);
 	for(i=1;i<x;i++)
 	{
