@@ -10,7 +10,7 @@ main(){
 		}
 		if(x>max)
 		max=x;
-		else
+		if(x<min)
 		min=x;
 	}
 	printf("%d %d",max,min);
