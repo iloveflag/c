@@ -63,7 +63,7 @@ printf("%d",cnt);
 	  for(y=0;y<=9;y++)
 	  {	
 		 t=x*1000+x*100+y*10+y;
-		 for(i=32;i<t;i++)
+		 for(i=2;i<t;i++)
 		 {
 			 if(t==i*i)
 				printf("%d",t);

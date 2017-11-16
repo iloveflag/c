@@ -1,10 +1,24 @@
+
 #include <stdio.h>
 main(){
-	int x,sum;
-	for(x=0;x<=100;x++)
-	{if(x%3==0)
-	sum+=x;
+
+int x,y,i,t;
+scanf("%d %d",&x,&y);
+	for(i=2;i<x;i++)
+	{
+		if(x%i==0)
+		break;
 	}
-	printf("%d",sum);
-	
+	if(x==i)
+		printf("是素数");
+
+
+		for(t=2;t<y;t++)
+	{
+		if(y%t==0)
+		break;
+	}
+	if(y==t)
+		printf("是素数");
+
 }
