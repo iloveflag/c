@@ -8,5 +8,5 @@ main(){
 		sum+=i;
 	}
 	if(sum==x)
-	printf("æ˜¯å®Œæ•°"); 
+	printf("ÊÇÍêÊı"); 
 }

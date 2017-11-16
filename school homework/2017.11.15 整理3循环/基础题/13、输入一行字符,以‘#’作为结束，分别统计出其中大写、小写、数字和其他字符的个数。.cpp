@@ -4,15 +4,7 @@ main(){
 	int a,b,c,d;
 	a=b=c=d=0;
 	scanf("%c",&x);
-<<<<<<< HEAD
-<<<<<<< HEAD
 	scanf("%c",&t);//³ýÈ¥»Ø³µ¼ü 
-=======
-	scanf("%c",&t);//é™¤åŽ»å›žè½¦é”®
->>>>>>> 11ef5b54889a9b464aec2d7de6a64b1c9aab2f47
-=======
-	scanf("%c",&t);//é™¤åŽ»å›žè½¦é”®
->>>>>>> 11ef5b54889a9b464aec2d7de6a64b1c9aab2f47
 	while(x!='#')
 	{
 		if(x>='A'&&x<='Z')
@@ -24,15 +16,7 @@ main(){
 		else
 		d++;
 		scanf("%c",&x);
-<<<<<<< HEAD
-<<<<<<< HEAD
-		scanf("%c",&t);//³ýÈ¥»Ø³µ¼ü 
-=======
-		scanf("%c",&t);//é™¤åŽ»å›žè½¦é”® 
->>>>>>> 11ef5b54889a9b464aec2d7de6a64b1c9aab2f47
-=======
-		scanf("%c",&t);//é™¤åŽ»å›žè½¦é”® 
->>>>>>> 11ef5b54889a9b464aec2d7de6a64b1c9aab2f47
+	S	scanf("%c",&t);//³ýÈ¥»Ø³µ¼ü 
 	}
 		
 	printf("%d %d %d %d",a,b,c,d);
