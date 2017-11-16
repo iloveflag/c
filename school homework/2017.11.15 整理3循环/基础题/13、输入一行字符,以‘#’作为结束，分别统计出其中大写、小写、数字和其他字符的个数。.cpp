@@ -4,7 +4,7 @@ main(){
 	int a,b,c,d;
 	a=b=c=d=0;
 	scanf("%c",&x);
-	scanf("%c",&t);//³öÈ¥»Ø³µ¼ü 
+	scanf("%c",&t);//é™¤åŽ»å›žè½¦é”®
 	while(x!='#')
 	{
 		if(x>='A'&&x<='Z')
@@ -16,7 +16,7 @@ main(){
 		else
 		d++;
 		scanf("%c",&x);
-		scanf("%c",&t);//³öÈ¥»Ø³µ¼ü 
+		scanf("%c",&t);//é™¤åŽ»å›žè½¦é”® 
 	}
 		
 	printf("%d %d %d %d",a,b,c,d);
