@@ -11,7 +11,7 @@ for(x=1;x<=10;x++)
 		max=t;
 }
 
-printf("%",t);
+printf("%d",t);
 }
 */
 
@@ -87,7 +87,6 @@ main()
 		t1=sqrt(x1);
 		x2=x1+168;
 		t2=sqrt(x2);
-		if(t1==sqrt(x1)&&t2==sqrt(x2))
 		{	
 			printf("%d",x);
 			
