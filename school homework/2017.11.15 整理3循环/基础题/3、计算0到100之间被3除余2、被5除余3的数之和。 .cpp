@@ -1,10 +1,9 @@
 #include <stdio.h>
 main(){
 	int x,sum=0;
-	for(x=0;x<=100;x++)
+	for (x= 0; x < =count; ++i)
 	{
-		if(x%3==2&&x%5==3)
-		sum+=x;
+		/* code */
 	}
-	printf("%d",sum);
+	
 }
