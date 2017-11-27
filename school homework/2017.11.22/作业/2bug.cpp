@@ -23,6 +23,7 @@ main(){
 		else
 		i++;
 	}
+	printf("%d %d",m,n);
 	if(t==1)
 	printf("%s",a);
 	if(t==0)
