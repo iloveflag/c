@@ -2,10 +2,10 @@
 main(){
 	char a[100],x,i,j,t,m;
 	scanf("%s",a);
-	for(m=0;a[m];m++)
-	for(j=0;j<9;j++)
+	for(m=0;a[m];m++){} 
+	for(j=0;j<m-1;j++)
 	{
-		for(i=0;i<9;i++)
+		for(i=0;i<m-1;i++)
 		{	if(a[i]>a[i+1])
 			{
 				t=a[i];
@@ -14,6 +14,5 @@ main(){
 			}
 		}
 	}
-	for(i=0;i<m;i++)
 	printf("%s",a);
 }

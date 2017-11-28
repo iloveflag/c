@@ -1,7 +1,7 @@
 #include <stdio.h>
 main(){
 	char a[100],b[100];
-	int m,n,i,j;
+	int m=0,n=0,i,j;
 	scanf("%s",a);
 	scanf("%s",b);
 	for(i=0;a[i]!='\0';i++)

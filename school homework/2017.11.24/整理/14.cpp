@@ -5,8 +5,10 @@ main(){
 	int m,n,t,i,k;
 	scanf("%s",a);
 	scanf("%s",b);
-	for(m=0;a[m];m++)
-	for(n=0;b[n];n++)
+	for(m=0;a[m];m++){
+	}
+	for(n=0;b[n];n++){
+	}
 	t=m>n?n:m;
 	i=0;
 	while(i<t)

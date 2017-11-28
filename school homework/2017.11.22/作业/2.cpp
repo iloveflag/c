@@ -5,8 +5,10 @@ main(){
 	scanf("%s",a);
 	scanf("%s",b);
 	int m,n,i,t;
-	for(m=0;a[m];m++)
-	for(n=0;a[n];n++)
+	for(m=0;a[m];m++){
+	}
+	for(n=0;b[n];n++){
+	}
 	for(i=0;i<m;)
 	{
 		if(a[i]>b[i])
@@ -23,7 +25,7 @@ main(){
 		else
 		i++;
 	}
-	printf("%d %d",m,n);
+	
 	if(t==1)
 	printf("%s",a);
 	if(t==0)
