@@ -10,11 +10,8 @@ for(i=0;i<5;i++)
 for(i=0;i<5;i++)
 {	sum=0;
 	for(j=0;j<5;j++)
-	{
-		sum+=b[i][j];
-	}
+	sum+=b[i][j];
 	a[i]=sum;
-
 }
 for(i=0;i<5;i++)
 printf("%d\n",a[i]);
