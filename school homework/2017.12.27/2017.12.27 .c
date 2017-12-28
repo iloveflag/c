@@ -120,16 +120,20 @@ for(i=0;i<2;i++)
 printf("%d %d %d %d %s",st[i].csny.y,st[i].csny.m,st[i].csny.d,st[i].xh,st[i].xm);
 }*/
 
-/*struct day{
+struct day{
 int y;
 int m;
 int d;
 }
 main(){
-struct day csny;
-scanf("%d %d %d",&csny.y,&csny.m,&csny.d);
-printf("%d %d %d",csny.y,csny.m,csny.d);
-}*/
+struct day csny[2];
+int i;
+for(i=0;i<2;i++)
+scanf("%d %d %d",&csny[i].y,&csny[i].m,&csny[i].d);
+for(i=0;i<2;i++)
+printf("%d %d %d",csny[i].y,csny[i].m,csny[i].d);
+}
+
 
 
 
