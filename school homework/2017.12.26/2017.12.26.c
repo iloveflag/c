@@ -144,7 +144,7 @@ printf("%d ",*p1);
 
 }*/
 
-/*7.main(){
+/*9.main(){
 int a[10],*p,*p1,*p2,x,i,cnt=0,m,t;
 for(p=a;p<a+10;p++)
 scanf("%d",p);
@@ -267,7 +267,6 @@ main(){
 	px(p);
 	printf("²åÈë");
 	scanf("%d",&x);
-	p=a;
 	cr(p,x);
 	for(p=a;p<a+11;p++)
 		printf("%d ",*p);

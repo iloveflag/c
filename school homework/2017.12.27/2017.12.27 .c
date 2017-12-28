@@ -85,7 +85,7 @@ printf("%d %f %s\n",st[i].xh,st[i].fs,st[i].xm);
 }
 */
 
-/*=====================================================
+/*=====================================================ื๗าต 
 struct day{
 int y;
 int m;
@@ -101,22 +101,36 @@ printf("%d %d %d\n",cs[i].y,cs[i].m,cs[i].d);
 }*/
 
 
-struct day{
+/*
+strucstruct day{
 int y;
 int m;
 int d;
-};
-struct str{
+};t str{
 int xh;
 char xm[10];
 struct day csny;
-}
+};
 main(){
 struct str st[2];
-for(i=0;i<2,i++)
+int i;
+for(i=0;i<2;i++)
 scanf("%d %d %d %d %s",&st[i].csny.y,&st[i].csny.m,&st[i].csny.d,&st[i].xh,st[i].xm);
-printf("%d %d %d %d %s",st.csny.y,st.csny.m,st.csny.d,st.xh,st.xm);
+for(i=0;i<2;i++)
+printf("%d %d %d %d %s",st[i].csny.y,st[i].csny.m,st[i].csny.d,st[i].xh,st[i].xm);
+}*/
+
+/*struct day{
+int y;
+int m;
+int d;
 }
+main(){
+struct day csny;
+scanf("%d %d %d",&csny.y,&csny.m,&csny.d);
+printf("%d %d %d",csny.y,csny.m,csny.d);
+}*/
+
 
 
 
