@@ -102,11 +102,12 @@ printf("%d %d %d\n",cs[i].y,cs[i].m,cs[i].d);
 
 
 /*
-strucstruct day{
+struct day{
 int y;
 int m;
 int d;
-};t str{
+};
+struct str{
 int xh;
 char xm[10];
 struct day csny;
