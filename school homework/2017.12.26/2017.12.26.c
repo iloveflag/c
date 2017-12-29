@@ -148,26 +148,26 @@ printf("%d ",*p1);
 int a[10],*p,*p1,*p2,x,i,cnt=0,m,t;
 for(p=a;p<a+10;p++)
 scanf("%d",p);
-printf("É¾³ý");
+printf("Ã‰Â¾Â³Ã½");
 scanf("%d",&x);
-for(i=0;i<10-cnt;i++)//ÓÐÑ­»·È±ÏÝ£¨bug£©
+for(i=0;i<10-cnt;i++)//Ã“ÃÃ‘Â­Â»Â·ÃˆÂ±ÃÃÂ£Â¨bugÂ£Â©
 {m=0;
-	p=p1=a;
+	p1=a;
 	while(*p1!=x&&p1<a+10-cnt)
 	p1++;
 	p2=p1;
-	while(*p2==x&&p1<a+10-cnt)
+	while(*p2==x&&p2<a+10-cnt)
 	{
 	p2++;
 	m++;
 	}
-		//printf("%d %d\n",*p1,*p2);//µ÷ÊÔ 
-	for(p=p1;p2<a+10-cnt;p1++,p2++)
+		//printf("%d %d\n",*p1,*p2);//ÂµÃ·ÃŠÃ” 
+	for(;p2<a+10-cnt;p1++,p2++)
 	*p1=*p2;
 	cnt=cnt+m;
-		//for(p=a;p<a+10-cnt;p++)//µ÷ÊÔ 
-		//printf("%d ",*p);//µ÷ÊÔ 
-		//printf("cnt=%d m=%d\n",cnt,m);//µ÷ÊÔ 
+		//for(p=a;p<a+10-cnt;p++)//ÂµÃ·ÃŠÃ” 
+		//printf("%d ",*p);//ÂµÃ·ÃŠÃ” 
+		//printf("cnt=%d m=%d\n",cnt,m);//ÂµÃ·ÃŠÃ” 
 	
 }
 for(p=a;p<a+10-cnt;p++)
@@ -265,7 +265,7 @@ main(){
 		scanf("%d",p);
 	p=a;
 	px(p);
-	printf("²åÈë");
+	printf("Â²Ã¥ÃˆÃ«");
 	scanf("%d",&x);
 	cr(p,x);
 	for(p=a;p<a+11;p++)
