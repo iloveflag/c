@@ -152,7 +152,7 @@ printf("É¾³ý");
 scanf("%d",&x);
 for(i=0;i<10-cnt;i++)//ÓÐÑ­»·È±ÏÝ£¨bug£©
 {m=0;
-	p=p1=a;
+	p1=a;
 	while(*p1!=x&&p1<a+10-cnt)
 	p1++;
 	p2=p1;
